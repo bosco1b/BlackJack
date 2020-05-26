@@ -92,6 +92,7 @@ def nova_compra():
             jogador.append(baralho.pop())
             print("A carta foi {}".format(jogador[-1]))
             resultadoJogador()
+            print("teste")
         else:
             print("Você parou com {} pontos!".format(sum(jogador)))
             break
